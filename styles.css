@@ -1,0 +1,25 @@
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+}
+
+#barChart {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: auto;
+  transform: translate(-50%, -50%);
+  background: #F3F3F3 url("bg_pattern_block.png") top center;     /* background-color: #FAFBFC; */
+  /* border-left: 5px solid #558ABB; */
+  /*  outline-style: dashed;
+      outline-color: teal;
+      outline-width: 0.5px;
+      outline-offset: 1px;  */
+}
+
+/*svg:hover {
+  -webkit-filter: drop-shadow(-5px -5px 3px #FA2);
+          filter: drop-shadow(-5px -5px 3px #FA2);
+}*/
